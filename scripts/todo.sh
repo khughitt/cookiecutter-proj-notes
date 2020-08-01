@@ -47,7 +47,7 @@ for x in $infiles; do
         echo -e "\e[31m$header"
         #echo $header
         printf '=%.s' $(seq 1 ${#header})
-        echo -e "\n\e[39m$entries\e[39m";
+        echo -e "\n\e[39m$entries\e[39m\n";
     fi
 done
 
